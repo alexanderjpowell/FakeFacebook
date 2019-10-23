@@ -7,7 +7,6 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <!--android:layout_height="?attr/actionBarSize"-->
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/my_toolbar"
         android:layout_width="match_parent"
@@ -31,7 +30,8 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:src="@drawable/profile_placeholder_copy"
-            android:layout_margin="6dp"/>
+            android:layout_margin="6dp"
+            android:contentDescription="@string/profile_placeholder_content_description"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -40,9 +40,10 @@
             android:layout_marginTop="6dp">
 
             <TextView
+                android:id="@+id/nameTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Alex Powell"
+                android:text="@string/profile_name"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:textSize="18sp"/>
@@ -55,13 +56,15 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="7 Hrs  "
+                    android:text="@string/profile_age"
+                    android:layout_marginEnd="3dp"
                     android:textColor="@color/black"
                     android:textSize="14sp"/>
 
                 <View
                     android:layout_width="13dp"
                     android:layout_height="13dp"
+                    android:layout_marginStart="3dp"
                     android:layout_marginTop="3dp"
                     android:background="@drawable/earth_logo"/>
 
@@ -72,9 +75,10 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/statusTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="This is an example Facebook status"
+        android:text="@string/profile_status"
         android:textColor="@color/black"
         android:textSize="18sp"
         android:layout_marginStart="8dp"
@@ -94,7 +98,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="23"
+            android:text="@string/profile_number_of_likes"
             android:textColor="@color/black"
             android:layout_marginStart="4dp"/>
 

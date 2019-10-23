@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">FakeFacebook</string>
+
+    <string name="profile_placeholder_content_description">Empty placeholder image for profile</string>
+
+    <string name="profile_name">John Doe</string>
+    <string name="profile_status">This is an example Facebook status</string>
+    <string name="profile_age">7 Hrs</string>
+    <string name="profile_number_of_likes">23</string>
+
+    <string name="profile_name_hint">Profile Name</string>
 </resources>
