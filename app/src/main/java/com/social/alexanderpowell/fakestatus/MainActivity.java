@@ -1,4 +1,4 @@
-package com.social.alexanderpowell.fakefacebook;
+package com.social.alexanderpowell.fakestatus;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;

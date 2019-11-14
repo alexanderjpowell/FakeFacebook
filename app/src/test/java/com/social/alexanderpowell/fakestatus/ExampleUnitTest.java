@@ -1,4 +1,4 @@
-package com.social.alexanderpowell.fakefacebook;
+package com.social.alexanderpowell.fakestatus;
 
 import org.junit.Test;
 
